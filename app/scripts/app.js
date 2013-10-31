@@ -3,20 +3,6 @@
  * Call everything from here
  */
 
-// var $foo = $('#circle_2');
-
-// var $win = $(window).scroll(function() {
-// 	if($win.scrollTop()>200) {
-// 		if(!$foo.is(':visible')) {
-// 			$foo.stop(true, true).fadeIn();
-// 		}
-// 	}
-// 	else {
-// 		if(!$foo.is(':animated')) {
-// 			$foo.stop(true, true).fadeOut();
-// 		}
-// 	}
-// });
 // KREIS 1
 var $win = $(window).scroll(function() {
 	if($win.scrollTop()>200) {
@@ -66,6 +52,34 @@ var $win = $(window).scroll(function() {
 		}
 });
 
+//backwards
+
+// KREIS 4
+//blank
+var $win = $(window).scroll(function() {
+	if($win.scrollTop()<1500) {
+		$('#circle_4').show();
+		$('#circle_4_2').hide();
+		}
+});
+
+// KREIS 3
+//blank
+var $win = $(window).scroll(function() {
+	if($win.scrollTop()<1000) {
+		$('#circle_3').show();
+		$('#circle_3_2').hide();
+		}
+});
+
+// KREIS 2
+// blank
+// var $win = $(window).scroll(function() {
+// 	if($win.scrollBottom()>1000) {
+// 		$('#circle_2').show();
+// 		$('#circle_2_2').hide();
+// 		}
+// });
 
 // var PageTransitions = (function() {
 
