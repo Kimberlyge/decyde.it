@@ -1,0 +1,79 @@
+// /**
+//  * Article
+//  */
+
+// // Default for all articles
+// .Article {}
+
+// // Teaser modifier
+// .Article--teaser {
+// 	// Make sure the link contains everything
+// 	> a {
+// 		display: block;
+// 	}
+// }
+
+// // Detail modifier
+// .Article--detail {}
+
+
+@media screen and (max-width: 769px)
+{
+	.footer{
+		margin-top:10em;
+		width:1.3em;
+		}
+	.Page--1{
+		.content-box{
+			text-align:center;
+			width: 300px;
+			height: 310px;
+			margin-left: auto;
+			margin-right:auto;
+			background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAFUlEQVQImWNgQAL/////TyqHgYEBAB5CD/FVFp/QAAAAAElFTkSuQmCC);
+			opacity: 0.4;
+		}
+		.content-text{
+			padding-top: 0.7em;
+			font-size:3.5em;
+			color:$WhiteCream;
+		}
+		.plusbutton{
+			display:none;
+		}
+	}
+.Header-text{
+	padding-top:1.5em;
+	padding-bottom:0.2em;
+}
+// .circle {
+// 	width: 150px;
+// 	height: 150px; 
+// 	margin-left: 20%;
+// }
+// .circle-2 {
+// 	width: 150px;
+// 	height: 150px;
+// 	margin-right: 20%;
+//}
+
+.circle{
+	border-radius:0%;
+	width:300px;
+	height:60px;
+	//margin-left: auto;
+	//margin-right:auto;
+	margin-bottom:2px;
+	background-color: $WhiteCream;
+}
+.circle-2{
+	border-radius:0%;
+	width:300px;
+	height:60px;
+	//margin-left: auto;
+	//margin-right:auto;
+	margin-bottom:2px;
+	background-color: $WhiteCream;
+}
+}
+

@@ -1,0 +1,107 @@
+/**
+ * Base
+ */
+
+html {
+	font-size: $base-font-size;
+	font-family: $font-body;
+	line-height: $base-line-height-unitless;
+	text-rendering: optimizeLegibility; // enables kerning and ligatures
+	color: #000;
+}
+
+
+/**
+ * Elements
+ */
+blockquote,
+ol,
+ul,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+fieldset,
+input,
+textarea {
+    margin: 0 0 1em;
+}
+fieldset {
+    border: 0;
+    padding: 0;
+}
+a {
+	text-decoration: none;
+	color: $link-color;
+	&:hover {
+		color: $link-color-hover;
+	}
+}
+iframe,
+img {
+	max-width: 100%;
+}
+figure {
+	margin: 0; // remove default margin
+}
+blockquote {
+	padding-left: 1em;
+	font-style: italic;
+}
+address {
+	font-style: normal;
+}
+
+
+/**
+ * Headers
+ */
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4 {
+	//font-family: $font-header;
+	font-weight: bold;
+}
+h1, .h1 {
+	@include rem(font-size, 36px);
+	margin-bottom: em(5,36);
+	line-height: 1;
+}
+h2, .h2 {
+	@include rem(font-size, 22px);
+	margin-bottom: em(7,22);
+	line-height: 1.1;
+}
+h3, .h3 {
+	@include rem(font-size, 16px);
+}
+h4, .h4 {
+	@include rem(font-size, 12px);
+}
+
+
+/**
+ * Alignment helpers
+ */
+.align-left {
+	float: left;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+.align-right {
+	float: right;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+.align-center {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}

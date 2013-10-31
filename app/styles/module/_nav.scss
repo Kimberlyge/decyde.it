@@ -1,0 +1,81 @@
+/**
+ * Navigation
+ */
+
+.Nav {
+	padding: 0;
+	list-style: none;
+
+	// links
+	a {
+		display: block;
+		color: $link-color;
+	}
+
+	// hover
+	a:hover {
+		color: $link-color-hover;
+	}
+
+	// active
+	.is-selected > a,
+	.is-selected {
+		color: $link-color-active;
+	}
+}
+
+
+/**
+ * Modifier: horizontal
+ */
+
+.Nav--horizontal {
+	li {
+		display: inline-block;
+	}
+}
+
+
+/**
+ * Modifier: breadcrumbs
+ */
+
+.Nav--breadcrumbs {
+	@include pie-clearfix;
+
+	li {
+		float: left;
+	}
+	li:after {
+		content: ' →  ';
+	}
+	li:last-child:after {
+		display: none;
+	}
+	a {
+		display: inline;
+	}
+}
+
+
+/**
+ * Pagination
+ */
+
+.Pagination {
+	@extend .Nav--horizontal;
+	text-align: center;
+	a {
+		display: block;
+		padding: 0.2em 0.4em; // bigger tap area
+	}
+}
+
+
+/**
+ * Primary navigation
+ */
+
+.Nav--primary {
+	a {}
+}

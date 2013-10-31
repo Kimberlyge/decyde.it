@@ -1,0 +1,111 @@
+// /**
+//  * Animation design
+//  */
+
+// // Fade-in
+// @include keyframes(fadeIn) {
+// 	0% { opacity: 0; }
+// 	100% { opacity: 1; }
+// }
+
+// // Fade-in and down
+// @include keyframes(fadeDown) {
+// 	0% {
+// 		opacity: 0.75;
+// 		@include translateY(-5px);
+// 	}
+// 	100% {
+// 		opacity: 1;
+// 		@include translateY(0);
+// 	}
+// }
+
+// // Example
+// .a-fadeDown {
+// 	@include animation(fadeDown 200ms ease-in); // include the keyframe
+// 	@include animation-delay(1000ms); // when to start it
+// 	@include animation-fill-mode(both); // make sure it keeps the start/end values of the keyframe
+// }
+
+// // page transition
+
+// .pt-perspective {
+// 	position: relative;
+// 	width: 100%;
+// 	height: 100%;
+// 	perspective: 1200px;
+// 	transform-style: preserve-3d;
+// }
+ 
+// .pt-page {
+// 	width: 100%;
+// 	height: 100%;
+// 	position: absolute;
+// 	top: 0;
+// 	left: 0;
+// 	visibility: hidden;
+// 	overflow: hidden;
+// 	backface-visibility: hidden;
+// 	transform: translate3d(0, 0, 0);
+// }
+ 
+// .pt-page-current,
+// .no-js .pt-page {
+// 	visibility: visible;
+// }
+ 
+// .no-js body {
+// 	overflow: auto;
+// }
+ 
+// .pt-page-ontop {
+// 	z-index: 999;
+// }
+
+// .pt-page-moveToBottomEasing {
+// 	-webkit-animation: moveToBottom .7s ease-in-out both;
+// 	-moz-animation: moveToBottom .7s ease-in-out both;
+// 	animation: moveToBottom .7s ease-in-out both;
+// }
+
+// @-webkit-keyframes moveToBottom {
+// 	to { -webkit-transform: translateY(100%); }
+// }
+// @-moz-keyframes moveToBottom {
+// 	to { -moz-transform: translateY(100%); }
+// }
+// @keyframes moveToBottom {
+// 	to { transform: translateY(100%); }
+// }
+
+// @-webkit-keyframes moveFromBottom {
+// 	from { -webkit-transform: translateY(100%); }
+// }
+// @-moz-keyframes moveFromBottom {
+// 	from { -moz-transform: translateY(100%); }
+// }
+// @keyframes moveFromBottom {
+// 	from { transform: translateY(100%); }
+// }
+// #scroll {
+//     position: fixed;
+//     top: 50%;
+//     right: 30px;
+//     z-index: 999;
+// }
+// .scroll_item {
+//     border: 3px solid #FFF;
+//     width: 10px;
+//     height: 10px;
+//     margin: 5px;
+// }
+// .scroll_item:hover{
+//     background: #FFF;
+// }
+// .scroll_item_active {
+//     border: 3px solid #FFF;
+//     width: 10px;
+//     height: 10px;
+//     margin: 5px;
+//     background-color: #FFF;
+// }

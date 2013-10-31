@@ -1,0 +1,7 @@
+mixin menu-item(url, title)
+	li
+		a(href=url, class=active == title ? 'is-active' : '')= title
+
+ul.Nav.Nav--primary
+	+menu-item('index.html', 'Home')
+	+menu-item('about.html', 'About')

@@ -1,0 +1,140 @@
+/**
+ * Forms
+ */
+@media screen and (max-width: 480px) {
+.Page--1{
+	.Header--1{
+		margin:auto;
+		height:80px;
+		margin-bottom:4em;
+		text-align:center;
+		background-color: black;
+		img{
+			width: 130px;
+		}
+	}
+	.Whiteline{
+		display: none;
+		}
+	.content{
+		margin-top:-1.7em;
+		height:70%;
+		.content-box{
+			width: 250px;
+			height: 200px;
+			margin-left: auto;
+			margin-right:auto;
+			margin-top:0px;
+			background:none;
+			opacity:100;
+			}
+		.content-text{
+			text-align:center;
+			padding-top: 0em;
+			font-size:2.7em;
+			color:$WhiteCream;
+			//letter-spacing:0.1em;
+			}
+		.plusbutton{
+			display:block;
+			margin:auto;
+			width:4.3em;
+		}
+	} //close content
+	.footer{
+		display:none;
+		}
+} // close page 1
+.Page--2{
+	background-color: $GreyBlue;
+	height:100%;
+	.Header{
+		margin:auto;
+		height:80px;
+		margin-bottom:0em;
+		height:17%;
+		background-color: black;
+			img{
+			position:fixed;
+			width: 130px;
+			left:50%;
+			margin-left:-65px;
+			padding-top:0.1em;
+			//border:1px solid red;
+			}
+		}
+	.content{
+		margin-top:0;
+		height:66%;
+	}
+	.content-site2{
+		width:100%;
+		height:60px;
+		opacity:100;
+		background:#8a8c95;
+			img{
+				width:55px;
+				padding-top:0.3em;
+				padding-left: 0.5em;
+			}
+		}
+	.content-site2-1{
+		width:100%;
+		height:60px;
+		background-color:#c6c7cb;
+		}
+	.decydeit{
+		margin-bottom:1px;
+		height:17%;
+		background-color:$Pink;
+		}
+			.decydeit_text{
+				text-align:center;
+				font-size: 2.5em;
+				padding-top:0.2em;
+				text-decoration:underline;
+				color:$WhiteCream;
+			}
+	.footer{
+		display:none;
+		}
+	}//close page 2
+.Page--3{
+	background-color: $GreyBlue;
+	.Header--3n4{
+		margin:auto;
+		height:80px;
+		background-color: black;
+	}
+	.Header-text{display:none;}
+	.Header-text--smartphone{
+		text-align:center;
+		padding-bottom:0.1em;
+		padding-top:0.1em;
+		color: $WhiteCream;
+		font-size:170%;
+	}
+	.Whiteline{display:none;}
+	.circle{
+		border-radius:0%;
+		width:100%;
+		height:80px;
+		margin-left: auto;
+		margin-right:auto;
+		margin-bottom:0.2em;
+		background-color: #c6c7cb;
+	}
+	.circle-2{
+		border-radius:0%;
+		width:100%;
+		height:80px;
+		margin-left: auto;
+		margin-right:auto;
+		margin-bottom:2px;
+		background-color: #c6c7cb;
+	}
+	.footer{
+		display:none;
+	}
+}//close page 3
+}//close mediaquerie
