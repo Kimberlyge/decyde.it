@@ -64,21 +64,95 @@ body,
 }
 .content{
 	height:30%;
-.content-box{
-	text-align:center;
-	width:500px;
-	height:250px;
-	margin-left:auto;
-	margin-right:auto;
-	background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAFUlEQVQImWNgQAL/////TyqHgYEBAB5CD/FVFp/QAAAAAElFTkSuQmCC);
-	opacity:0.4;
-	}
-.content-text{
-	padding-top:0.3em;
-	font-size:3.5em;
-	color:$WhiteCream;
-	}
+	.content-box{
+		text-align:center;
+		width:500px;
+		height:250px;
+		margin-left:auto;
+		margin-right:auto;
+		background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAFUlEQVQImWNgQAL/////TyqHgYEBAB5CD/FVFp/QAAAAAElFTkSuQmCC);
+		opacity:0.4;
+		}
+	.content-text{
+		padding-top:0.3em;
+		font-size:3.5em;
+		color:$WhiteCream;
+		}
 }
+.sidebar{
+	position:fixed;
+	width:50px;
+	height:100px;
+	top:290px;
+	#circle_1{
+		border-radius:50%;
+		width:13px;
+		height:13px; 
+		margin:auto;
+		margin-top:1em;
+		background-color:$WhiteCream;
+		}
+	#circle_1_2{
+		display:none;
+		border-radius:50%;
+		width:13px;
+		height:13px; 
+		margin:auto;
+		margin-top:1em;
+		border:1px solid $WhiteCream;
+		}
+	#circle_2{
+		border-radius:50%;
+		width:13px;
+		height:13px; 
+		margin:auto;
+		margin-top:0.3em;
+		border:1px solid $WhiteCream;
+		}
+	#circle_2_2{
+		display:none;
+		border-radius:50%;
+		width:13px;
+		height:13px; 
+		margin:auto;
+		margin-top:0.3em;
+		background-color:$WhiteCream;
+		}
+	#circle_3{
+		border-radius:50%;
+		width:13px;
+		height:13px; 
+		margin:auto;
+		margin-top:0.3em;
+		border:1px solid $WhiteCream;
+		}
+	#circle_3_2{
+		display:none;
+		border-radius:50%;
+		width:13px;
+		height:13px; 
+		margin:auto;
+		margin-top:0.3em;
+		background-color:$WhiteCream;
+		}
+	#circle_4{
+		border-radius:50%;
+		width:13px;
+		height:13px;
+		margin:auto; 
+		margin-top:0.3em;
+		border:1px solid $WhiteCream;
+		}
+	#circle_4_2{
+		display:none;
+		border-radius:50%;
+		width:13px;
+		height:13px; 
+		margin:auto;
+		margin-top:0.3em;
+		background-color:$WhiteCream;
+		}
+	}
 .footer{
 	margin:auto;
 	margin-top:9.0em;
