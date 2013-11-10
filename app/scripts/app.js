@@ -72,12 +72,7 @@ var $win = $(window).scroll(function() {
 		}
 });
 
-// KREIS 2
-// blank
-// var $win = $(window).scroll(function() {
-// 	if($win.scrollBottom()>1000) {
-// 		$('#circle_2').show();
-// 		$('#circle_2_2').hide();
-// 		}
+// $('.footer').click(function() {
+// 	$.scrollTop($(.Page--2), 200);
 // });
 
