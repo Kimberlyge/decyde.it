@@ -10,7 +10,7 @@
 
 // Susy grids - also applies * { box-sizing: border-box; }
 @import "susy";
-@include border-box-sizing;
+// @include 'border-box-sizing';
 
 // Compass (we need the 0.13 alpha)
 @import "compass/typography"; // REM fallback
